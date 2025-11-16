@@ -219,7 +219,7 @@ jobs:
           high_carb_limit \
           now_line \
           watch_title \
-          meal_days
+          meal_week
           export SCRIPT_BRANCH=prelim_ai_food && export PATCH_BRANCH=prelim_ai_food && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/$SCRIPT_BRANCH/CustomizationSelect.sh)" food_search
 
           # the final customization listed above CANNOT have a continuation character
