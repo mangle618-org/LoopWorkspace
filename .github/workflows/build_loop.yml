@@ -219,6 +219,7 @@ jobs:
           high_carb_limit \
           now_line \
           watch_title \
+          profiles \
           meal_week
           export SCRIPT_BRANCH=prelim_ai_food && export PATCH_BRANCH=prelim_ai_food && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/$SCRIPT_BRANCH/CustomizationSelect.sh)" food_search
 
